@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+inta main()
+{
+    puts("***********************************");
+    puts("* \t     -Level00 -\t\t  *");
+    puts("***********************************");
+    printf("Password:");
+    int input;
+    scanf("%d", &input);
+
+    if (input != 0x149c)
+    {
+        puts("\nInvalid Password!");
+        return 1;
+    }
+
+    puts("\nAuthenticated!");
+    system("/bin/sh");
+
+
+    return 0;
+}
