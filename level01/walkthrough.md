@@ -54,3 +54,6 @@ In our case it's disabled which mean that any instruction we injected in the fir
 
 Let's generate a payload.
 
+```bash
+python payload.py
+```
